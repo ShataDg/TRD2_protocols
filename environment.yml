@@ -1,0 +1,8 @@
+name: pyimagej
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pyimagej
+  - openjdk=11
+  - jupyterlab
