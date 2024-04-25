@@ -20,4 +20,8 @@
 
     ***This was fixed by removing*** `mode='interactive'` from the code
 
-    
+3. Fiji endpoint version 2.9 was initiated
+
+    `ImageJ2/Fiji version: 2.9.0/1.53t`
+
+4. 
