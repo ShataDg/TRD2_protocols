@@ -27,9 +27,9 @@
         16 
         17     :param message: Debug message to be printed
         18     :return: None
-        19     """
+        19     """`
 
-    ModuleNotFoundError: No module named 'jnius_config'`
+    `ModuleNotFoundError: No module named 'jnius_config'`
 
     ***This was fixed by*** `pip install pyimagej` and `pip install imagej`
 
