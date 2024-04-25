@@ -14,4 +14,10 @@
 
     ***This was fixed by*** `pip install matplotlib`
 
+    **C. Error in initializing Fiji**
+
+    `OSError: Sorry, the interactive mode is not available on macOS.`
+
+    ***This was fixed by removing*** `mode='interactive'` from the code
+
     
