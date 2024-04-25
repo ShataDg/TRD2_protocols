@@ -1,27 +1,28 @@
 
 1. Initialization step
 
-ModuleNotFoundError                       Traceback (most recent call last)
-Cell In[1], line 5
-      3 import os
-      4 import sys
-----> 5 import imagej
-      6 import scipy.ndimage
-      7 import numpy as np
 
-File ~/anaconda3/envs/trd2_protocol/lib/python3.9/site-packages/imagej/__init__.py:1
-----> 1 from .imagej import *
 
-File ~/anaconda3/envs/trd2_protocol/lib/python3.9/site-packages/imagej/imagej.py:10
-      7 __author__ = 'Yang Liu & Curtis Rueden'
-      9 import os
----> 10 import jnius_config
-     13 def _debug(message):
-     14     """
-     15     print debug message
-     16 
-     17     :param message: Debug message to be printed
-     18     :return: None
-     19     """
+2. jnius_config, pyimagej, imagej were pip installed
 
-ModuleNotFoundError: No module named 'jnius_config'
+ModuleNotFoundError: No module named matplotlib
+
+3. matplotlib pip installed
+
+---------------------------------------------------------------------------
+OSError                                   Traceback (most recent call last)
+Cell In[2], line 2
+      1 # initialize Fiji endpoint (ver 2.9.0) in interactive mode
+----> 2 ij = imagej.init('sc.fiji:fiji:2.9.0', mode='interactive')
+      3 print(f"ImageJ2/Fiji version: {ij.getVersion()}")
+
+File ~/anaconda3/envs/trd2_protocol/lib/python3.9/site-packages/imagej/__init__.py:1197, in init(ij_dir_or_version_or_endpoint, mode, add_legacy, headless)
+   1194 macos = sys.platform == "darwin"
+   1196 if macos and mode == Mode.INTERACTIVE:
+-> 1197     raise EnvironmentError("Sorry, the interactive mode is not available on macOS.")
+   1199 if not sj.jvm_started():
+   1200     success = _create_jvm(ij_dir_or_version_or_endpoint, mode, add_legacy)
+
+OSError: Sorry, the interactive mode is not available on macOS.
+
+4. The above is a 
