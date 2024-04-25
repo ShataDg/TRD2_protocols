@@ -26,4 +26,6 @@
 
 4. Legacy ImageJ resources were loaded
 
-5. 
+5. All required Imagej2/Fiji resources could be loaded
+
+6. 
