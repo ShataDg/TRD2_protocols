@@ -26,4 +26,5 @@
 
 4. All legacy ImageJ resources, additional Imagej2/Fiji resources, and JAVA-related resources could be loaded
 
-5. 
+5. Pipeline params were running after setting the input folder (movies - before and after treatment) and output folder
+
