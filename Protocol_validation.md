@@ -24,8 +24,6 @@
 
     `ImageJ2/Fiji version: 2.9.0/1.53t`
 
-4. Legacy ImageJ resources were loaded
+4. All legacy ImageJ resources, additional Imagej2/Fiji resources, and JAVA-related resources could be loaded
 
-5. All required Imagej2/Fiji resources could be loaded
-
-6. 
+5. 
