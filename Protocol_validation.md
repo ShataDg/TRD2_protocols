@@ -4,7 +4,7 @@
 
 2. Initialization steps generated some error messages
 
-**No module named jnius_config**
+**A. No module named jnius_config**
 
 `ModuleNotFoundError                       Traceback (most recent call last)
 Cell In[1], line 5
@@ -31,4 +31,8 @@ File ~/anaconda3/envs/trd2_protocol/lib/python3.9/site-packages/imagej/imagej.py
 
 ModuleNotFoundError: No module named 'jnius_config'`
 
-**This was fixed by** `pip install pyimagej` and `pip install imagej`
+***This was fixed by*** `pip install pyimagej` and `pip install imagej`
+
+**B. No module named matplotlib**
+
+***This was fixed by*** `pip install matplotlib`
