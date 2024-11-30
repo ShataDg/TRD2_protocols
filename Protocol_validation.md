@@ -28,7 +28,7 @@
 
 5. Pipeline params were running after setting the input folder (movies - before and after treatment) and output folder
 
-6. Barbara's protcol
+6. Barbara's protocol
    
 `---------------------------------------------------------------------------
 ModuleNotFoundError                       Traceback (most recent call last)
